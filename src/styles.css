@@ -1,21 +1,75 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
+/* Genel stil ayarları */
+body {
+  background-color: #467585; /* Açık mavi arka plan rengi */
+  font-family: Arial, sans-serif;
   margin: 0;
-  border: 0;
   padding: 0;
-  background-color: #fff;
 }
 
-main {
-  margin: auto;
-  width: 50%;
+/* Ana başlık ve paragraf stili */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+/* Kart düzeni */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding: 20px;
 }
 
-main > h1 {
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
   text-align: center;
-  font-size: 3.5em;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.card-content p {
+  color: #666;
+}
+
+.card-content a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}
+
+/* Footer stili */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
