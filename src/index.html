@@ -1,65 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>DDI</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/images/ADESSO-favicon-farbig.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg" style="background-color:#5EBEC4 ;" id="navbar">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">
+                    <img src="./assets/images/adesso_basic_White_RGB.png" alt="adesso SE" style="height:40px;">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li id="navbarText" class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#!" style="color: white; font-weight: bold;">Data Driven Insurance</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./assets/images/Bilder_PPT_DigitaleTransformation.jpg" alt="..." /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">Unsere Use Cases im Versicherungsvertrieb</h1>
+                    <p>Die Funktionalitäten von AI sind vielfältig: von intelligenten Echtzeit-Suchfunktionen für Vertrieb und Call-Center bis hin zur automatisierten Klassifikation und Prozessierung von Dokumenten. adesso bietet Ihnen erprobte Use Cases an, mit denen Sie Ihren Versicherungsvertrieb optimieren können, beispielsweise über automatisch generierte Antworten, personalisierte Kundeninteraktionen und passgenau bereitgestellte Informationen in der Beratung.</p>
+                    <!--<a class="btn btn-primary" href="#!">Call to Action!</a>-->
+                </div>
+            </div>
+            <!-- Call to Action-->
+            <div class="card text-white  my-5 py-4 text-center" style="background-color:#F92C85 ;">
+                <div class="card-body"><h2 class="text-white m-0" >Use Cases</h2></div>
+            </div>
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <img src="./assets/images/docs_vergleich.webp" class="card-img-top" alt="Dokument Vergleich">
+                        <div class="card-body">
+                            <h2 class="card-title">Dokument Vergleich</h2>
+                            <p class="card-text">Mit GenAI werden intelligente Echtzeit-Suchfunktionen für Vertriebsmitarbeitende oder Call-Center-Mitarbeitende in Beratungsgesprächen bereitgestellt, zum Beispiel über Produktbeschreibungen oder Versicherungsverträge. Durch die Analyse von Kundenanfragen und den Zugriff auf umfangreiche Datenbanken generiert die KI maßgeschneiderte Antworten – für effizientere und qualitativ bessere Kundeninteraktionen.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-light" style="background-color:#F92C85 ;"href="http://98.67.246.72:8080/comparison/playground/">Zum Use Case</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <img src="./assets/images/db_befragung.webp" class="card-img-top" alt="Dokument Vergleich">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>DDI-Use Cases</title>
-</head>
+                        <div class="card-body">
+                            <h2 class="card-title">Datenbank Befragung</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-light" style="background-color:#F92C85 ;" href="#!">Zum Use Case</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <img src="./assets/images/chatbots.webp" class="card-img-top" alt="Dokument Vergleich">
 
-<body>
-  <main>
-    <h1>Welcome to Data Driven Insurance </h1>
-    <p>Entdecken Sie unten verschiedene Use Cases von DDI:</p>
-
-    <div class="card-container">
-      <!-- Use Case 1 Card -->
-      <div class="card">
-        <img src="./images/docs_vergleich.webp" alt="Dokument Vergleich">
-        <div class="card-content">
-          <h2>Use Case 1: Dokument Vergleich</h2>
-          <p>In diesem Szenario wird gezeigt, wie man zwei Dokumente vergleicht und Unterschiede mithilfe von KI hervorhebt.</p>
-          <a href="http://98.67.246.72:8080/comparison/playground/" target="_blank">Zum Use Case 1</a>
+                        <div class="card-body">
+                            <h2 class="card-title">ChatBot</h2>
+                            <p class="card-text">GenAI kann personalisierte Antworten auf Kundenanfragen generieren und die Kundinnen und Kunden, basierend auf Keyword-Analysen, ggf. gezielt an die richtigen Mitarbeitenden weiterleiten. Dies ermöglicht eine schnelle und präzise Reaktion auf die Kundenanliegen. Durch die personalisierte Herangehensweise verbessert sich die Effizienz des Kundenservice und die Kundenerfahrung insgesamt.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-light" style="background-color:#F92C85 ;"href="#!">Zum Use Case</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Use Case 2 Card -->
-      <div class="card">
-        <img src="./images/db_befragung.webp" alt="Datenbank Befragung">
-        <div class="card-content">
-          <h2>Use Case 2: Datenbank Befragung</h2>
-          <p>Dieses Szenario zeigt, wie man mit einer Datenbank interagiert, um Daten abzufragen.</p>
-          <a href="use-case2.html" target="_blank">Zum Use Case 2</a>
-        </div>
-      </div>
-
-      <!-- Use Case 3 Card -->
-      <div class="card">
-        <img src="./images/einreichung_chatbots.webp" alt="Einreichung Chatbot">
-        <div class="card-content">
-          <h2>Use Case 3: Einreichung Chatbot</h2>
-          <p>Erfahren Sie, wie man einen Chatbot erstellt, der Benutzereingaben verarbeitet und entsprechend reagiert.</p>
-          <a href="use-case3.html" target="_blank">Zum Use Case 3</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="./images/chatbots.webp" alt="Chatbots">
-        <div class="card-content">
-          <h2>Use Case 4: Chatbots</h2>
-          <p>In diesem Szenario lernen Sie, wie Sie Chatbots erstellen und verwalten, um Benutzerinteraktionen zu automatisieren.</p>
-          <a href="use-case4.html" target="_blank">Zum Use Case 4</a>
-        </div>
-      </div>
-    
-      
-    </div>
-    
-  </main>
-  <footer>
-    <p>&copy; 2024 Data Driven Insurance. All rights reserved.</p>
-  </footer>
-</body>
-
+        <!-- Footer-->
+        <footer style="background-color:#5EBEC4 ;" class="py-5 ">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
